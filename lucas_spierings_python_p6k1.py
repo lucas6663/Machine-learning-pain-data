@@ -3,7 +3,7 @@
 """
 Created on Tue Jan 31 12:48:09 2023
 
-@author: lucasspierings
+@author: lucas
 """
 #%% Importing libraries for later use
 import pandas as pd 
@@ -20,7 +20,7 @@ from sklearn.model_selection import GridSearchCV
 
 #%% Assignment 1a
 # Loading in the data
-filepath = r"/Users/lucasspierings/Documents/School/BMT/BMT year 2/Semester 1/Project 6/Python/Tentamen Python/pijndata.csv"
+filepath = r"/Users/Filepath"
 rawdata = pd.read_csv(filepath, sep=';') 
 
 # Shows the amount of present values and datatype per column
